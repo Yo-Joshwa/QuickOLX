@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/selling.css">
+	<title>Selling_Page</title>
+</head>
+
+<body>
+	<div id="Selling_Page">
+		<h1>QuickOLX</h1>
+		<h2>Sell Here</h2>
+		<form action="#" method="post" name="frm">
+			<div class="form-shape">
+				<label for="name">Title</label>
+				<input type="text" name="mytitle" id="title" maxlength="30" 
+					placeholder="Enter your Title" required>
+			</div>
+			<div class="form-shape">
+				<label for="desc">Descpt.</label>
+				<input type="text" name="mydesc" id="desc" maxlength="50"
+					placeholder="Enter the description" required>
+			</div>
+			<div class="form-shape">
+				<label for="price">Price</label>
+				<input type="number" name="myPrice" id="price"
+					placeholder="Enter your Price" required>
+			</div>
+			<div class="form-shape">
+				<label for="BuyDate">Buying Date</label>
+				<input type="date" name="BuyDate" id="BuyDate">
+			</div>
+			<div class="form-shape">
+				<label for="BuyPrice">Buying Price</label>
+				<input type="price" name="myPrice" id="BuyPrice"
+					placeholder="Buying Price" required>
+			</div>
+			<div class="form-shape">
+				<label for="file-input">Select an image:</label>
+				<input type="file" name="myimage" id="file-input" accept="image" multiple>
+				
+			</div>
+			<h4>Your Details:</h4>
+			<div class="form-shape">
+				<label for="name">Name</label>
+				<input type="text" name="mytitle" id="name" maxlength="20"
+					placeholder="Enter your name " required>
+			</div>
+			<div class="form-shape">
+				<label for="email">email</label>
+				<input type="email" name="myEmail" id="email" maxlength="50"
+					placeholder="Enter your email Id" required>
+			</div>
+			<div class="form-shape">
+				<label for="pho">Phone Number</label>
+				<input type="phone" name="myPhone" id="pho" maxlength="10"
+					placeholder="Enter your Phone no" required>
+			</div>
+			<div class="form-shape">
+				<label for="name">Location</label>
+				<input type="text" name="mylocation" id="location" maxlength="20" 
+					placeholder="Enter your Location" required>
+			</div>
+			
+			<input type="submit" class="submitButton" 
+               id="submitButton" value="Submit">
+			<input type="reset" class="resetButton" 
+               id="resetButton" value="Reset">
+
+	</div>
+</body>
+</html>
